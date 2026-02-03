@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.lamport.tla.toolbox.tool.tlc.modelCheck">
+    <stringAttribute key="configurationName" value="Model_1"/>
+    <intAttribute key="distributedFPSetCount" value="0"/>
+    <stringAttribute key="distributedNetworkInterface" value="192.168.100.73"/>
+    <intAttribute key="distributedNodesCount" value="1"/>
+    <stringAttribute key="distributedTLC" value="off"/>
+    <intAttribute key="fpIndex" value="15"/>
+    <intAttribute key="maxHeapSize" value="25"/>
+    <stringAttribute key="modelBehaviorInit" value=""/>
+    <stringAttribute key="modelBehaviorNext" value=""/>
+    <stringAttribute key="modelBehaviorSpec" value="Spec"/>
+    <intAttribute key="modelBehaviorSpecType" value="1"/>
+    <stringAttribute key="modelBehaviorVars" value="disasterIndicators, newMatchCount, HighestMatchCount, i, pc, ProbableDisaster, DisasterMatches"/>
+    <stringAttribute key="modelComments" value=""/>
+    <booleanAttribute key="modelCorrectnessCheckDeadlock" value="true"/>
+    <listAttribute key="modelCorrectnessInvariants"/>
+    <listAttribute key="modelCorrectnessProperties">
+        <listEntry value="0Termination"/>
+    </listAttribute>
+    <intAttribute key="modelEditorOpenTabs" value="8"/>
+    <listAttribute key="modelParameterConstants">
+        <listEntry value="InputIndicators;;{&quot;tremor&quot;, &quot;shaking&quot;, &quot;crack&quot;, &quot;water&quot;, &quot;flood&quot;};0;0"/>
+        <listEntry value="IndicatorsByDisaster;;&lt;&lt;&#13;&#10;{&quot;tremor&quot;, &quot;shaking&quot;, &quot;seismic&quot;, &quot;crack&quot;, &quot;aftershock&quot;},&#13;&#10;{&quot;water&quot;, &quot;flood&quot;, &quot;rain&quot;, &quot;current&quot;, &quot;inundation&quot;},     &#13;&#10;{&quot;smoke&quot;, &quot;flame&quot;, &quot;heat&quot;, &quot;fire&quot;, &quot;ash&quot;}&#13;&#10;&gt;&gt;;0;0"/>
+        <listEntry value="defaultInitValue;;defaultInitValue;1;0"/>
+        <listEntry value="DisasterNames;;&lt;&lt; &quot;Earthquake&quot;, &quot;Flood&quot;, &quot;Wildfire&quot; &gt;&gt;;0;0"/>
+    </listAttribute>
+    <intAttribute key="modelVersion" value="20191005"/>
+    <intAttribute key="numberOfWorkers" value="4"/>
+    <stringAttribute key="result.mail.address" value=""/>
+    <stringAttribute key="specName" value="DisasterDetection"/>
+    <stringAttribute key="tlcResourcesProfile" value="local custom"/>
+</launchConfiguration>

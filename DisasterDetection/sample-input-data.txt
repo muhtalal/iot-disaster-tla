@@ -1,0 +1,4 @@
+InputIndicators = {"tremor", "shaking", "crack", "water", "flood"}
+DisasterNames = << "Earthquake", "Flood", "Wildfire" >>
+IndicatorsByDisaster = << {"tremor", "shaking", "seismic", "crack", "aftershock"}, 				  {"water", "flood", "rain", "current", "inundation"},
+			  {"smoke", "flame", "heat", "fire", "ash"} >>
